@@ -17,6 +17,29 @@
     * retinaLogos
 */
 
+/* CUSTOM */
+
+checkHeader();
+$(window).scroll(function () {
+  checkHeader();
+});
+
+function checkHeader() {
+  if ($(window).scrollTop() > 50) {
+    $("#header").css({
+      position: "fixed",
+      top: "0px",
+      "z-index": "99",
+    });
+  } else {
+    $("#header").css({
+      position: "relative",
+    });
+  }
+}
+
+/* END CUSTOM */
+
 ; (function ($) {
 
     'use strict'
