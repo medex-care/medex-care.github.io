@@ -282,6 +282,7 @@
 }
 .flat-about .circel-inside {
     position: absolute;
+    border: 25px solid #60CDA8;
     top: -15px;
     right: 34px;
     z-index: -1;
@@ -428,7 +429,6 @@
 .flat-services .our-services-box .active,
 .flat-services .our-services-box .icon-Group-7527 .path2:before,
 .flat-services .our-services-box .icon-Group-7527 .path3:before {
-    color: #ffff;
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -454,7 +454,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient( rgba(10, 78, 31, 0.753), rgba(10, 78, 31, 0.753)), url(../images/blog/close-up-picture-hand-holding-wooden-tray-which-full-pots-plants.jpg);
+    background: linear-gradient( rgb(96, 205, 168, 0.753), rgb(96, 205, 168, 0.753)), url(../images/blog/close-up-picture-hand-holding-wooden-tray-which-full-pots-plants.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -840,7 +840,7 @@
     margin-left: 3px;
 }
 .section-heading-jost-size20.icon {
-    background-color: #529f56;
+    background-color: #A6A6A6;
     padding: 15px 18px 15px 18px;
     border-radius: 50%;
 }
