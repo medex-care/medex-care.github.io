@@ -42,6 +42,13 @@
   * preloader
 */
 
+/* CUSTOM */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* END CUSTOM */
 
 /* Reset
 -------------------------------------------------------------- */
