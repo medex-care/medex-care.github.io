@@ -252,18 +252,18 @@ website:    http://www.themepunch.com
 /* ARROWS */
 .custom.tparrows {
   cursor:pointer;
-  background:#348e38;
+  background:var(--primary-color);
   width:50px;
   height:50px;
   position:absolute;
   display:block;
   z-index:100;
   border-radius: 60px !important;
-  border: 3px solid #348e38 ;
+  border: 3px solid var(--primary-color) ;
 }
 .custom.tparrows:hover {
-  color: #348e38;
-  background:#348e3823;
+  color: var(--primary-color);
+  background:var(--primary-color);
   transition: 0.5s ease-in-out;
 }
 .custom.tparrows:before {
@@ -312,7 +312,7 @@ website:    http://www.themepunch.com
 .tp-bullets,.tp-tabs,.tp-thumbs{position:absolute;display:block;z-index:1000;left:0;}
 .custom .tp-bullet:hover,
 .custom .tp-bullet.selected {
-  background:#348e38;
+  background:var(--primary-color);
 }
 .custom .tp-bullet-image {
 }

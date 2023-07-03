@@ -208,7 +208,7 @@
     letter-spacing: 1px !important;
 }
 #rev-slider2 h3 {
-    color: #348e38;
+    color: var(--primary-color);
 }
 #rev-slider2 h1 {
     color: #0f4229;
@@ -216,15 +216,15 @@
 #rev-slider2 .btn-left,
 #rev-slider1 .btn-left {
     margin-right: 28px;
-    background-color: #348e38;
-    border: solid 2px #348e38;
+    background-color: var(--primary-color);
+    border: solid 2px var(--primary-color);
     color: #ffff;
 }
 #rev-slider2 .btn-left:hover,
 #rev-slider1 .btn-left:hover {
     background-color: #0f422900;
-    border: solid 2px #348e38;
-    color: #348e38;
+    border: solid 2px var(--primary-color);
+    color: var(--primary-color);
 }
 #rev-slider2 .button-box {
     display: flex;
@@ -765,7 +765,7 @@
 .flat-testimonials .icon-inner-box::after {
     content: '\f10d';
     font-family: 'FontAwesome';
-    color: #348e38;
+    color: var(--primary-color);
     font-size: 39px;
     padding: 17px 20px 17px 20px;
     background: #ffff;
@@ -1011,7 +1011,7 @@
 .flat-contact {
     position: relative;
     background-color: var(--primary-color3);
-    background-image: url(../images/mask-back-ground/Group-contact.png);
+    /* TODO: background-image: url(../images/mask-back-ground/Group-contact.png); */
     background-position: -120% 37%;
     background-repeat: no-repeat;
     padding: 112px 5px 99px 0px;
@@ -1032,7 +1032,7 @@
     background-repeat: no-repeat;
     border-radius: 8px;
     padding: 46px 30px 1px 34px;
-    background-image: url(../images/mask-back-ground/leaf-contact.png);
+    /* TODO: background-image: url(../images/mask-back-ground/leaf-contact.png); */
     background-position: 114% 117%;
     margin: 50px 57px 0 0;
 }
@@ -1067,7 +1067,7 @@
     margin-left: 8%;
 }
 .flat-contact .address-icon {
-    background-color: #499a4c;
+    background-color: var(--primary-color2);
     border-radius: 12px;
     padding: 15px 25px 15px 25px;
     background-size: 15px;
