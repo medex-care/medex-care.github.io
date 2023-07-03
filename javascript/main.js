@@ -596,7 +596,8 @@ function checkHeader() {
           if(retina) {
               $('.logo-header').find('img').attr( {src:'./icon/logo-dark@2x.png',width:'172.7',height:'59.96'} );
               $('.logo-footer-style2').find('img').attr( {src:'./icon/logo-dark@2x.png',width:'172.7',height:'59.96'} );
-              $('.logo-footer').find('img').attr( {src:'./icon/logo-light@2x.png',width:'172.7',height:'59.96'} );  
+              $('.logo-footer').find('img').attr( {src:'./icon/logo-dark@2x.png',width:'172.7',height:'59.96'} );  
+              // TODO: use light logo in footer
           }
       };       
 
